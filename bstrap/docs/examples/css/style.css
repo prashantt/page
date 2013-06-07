@@ -1,0 +1,41 @@
+/* ZEN Player by @simurai  */
+
+
+/* Global ------------------------------------------------------ */
+
+ 
+
+
+/* Player ------------------------------------------------------ */
+
+div#zen {
+	position: absolute;
+	left: 25%;
+	top: 3%;
+}
+
+
+
+/* Mobile ------------------------------------------------------ */
+
+
+@media only screen and (max-width: 480px) {
+	
+	body {
+		/* Prevents Mobile Safari from bumping up font sizes in landscape */
+		-webkit-text-size-adjust: 100%; 
+	    }
+	
+}
+
+@media screen and (min-width: 480px) {
+	
+	block {
+		/* Prevents Mobile Safari from bumping up font sizes in landscape */
+		box-sizing: 100%; 
+	    }
+	
+}
+
+
+
